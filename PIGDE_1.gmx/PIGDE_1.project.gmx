@@ -30,6 +30,7 @@
     <object>objects\wallDecorGround</object>
     <object>objects\WallObjectV</object>
     <object>objects\CheckpointObject</object>
+    <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Party_House_Ground_Floor</room>
