@@ -19,17 +19,20 @@
     <background>background\HousePartyFirst</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\scp_respawn.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
-    <object>objects\Placeholder</object>
-    <object>objects\WallObjectH</object>
-    <object>objects\doorobjectclose</object>
-    <object>objects\doorObjectOpen</object>
-    <object>objects\wallDecorGround</object>
-    <object>objects\WallObjectV</object>
-    <object>objects\CheckpointObject</object>
+    <objects name="PlayerObjects">
+      <object>objects\obj_player</object>
+    </objects>
+    <objects name="WallObjects">
+      <object>objects\wallDecorGround</object>
+      <object>objects\obj_wallH</object>
+      <object>objects\obj_wallV</object>
+    </objects>
+    <objects name="DoorObjects">
+      <object>objects\obj_doorOpen</object>
+      <object>objects\obj_doorClose</object>
+    </objects>
     <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
