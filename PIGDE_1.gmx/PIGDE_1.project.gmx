@@ -13,13 +13,13 @@
     <sprite>sprites\doorOpen</sprite>
     <sprite>sprites\wallbeamV</sprite>
     <sprite>sprites\checkpoint</sprite>
+    <sprite>sprites\spr_player1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
     <background>background\HousePartyFirst</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="PlayerObjects">
       <object>objects\obj_player</object>
@@ -30,10 +30,17 @@
       <object>objects\obj_wallV</object>
     </objects>
     <objects name="DoorObjects">
-      <object>objects\obj_doorOpen</object>
       <object>objects\obj_doorClose</object>
+      <object>objects\obj_lockedDoor</object>
+      <object>objects\obj_verticalDoor</object>
     </objects>
-    <object>objects\obj_controller</object>
+    <objects name="Controllers">
+      <object>objects\obj_roomTransition</object>
+      <object>objects\floorChanger</object>
+      <object>objects\obj_controller</object>
+    </objects>
+    <object>objects\obj_client</object>
+    <object>objects\obj_click</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Party_House_Ground_Floor</room>
