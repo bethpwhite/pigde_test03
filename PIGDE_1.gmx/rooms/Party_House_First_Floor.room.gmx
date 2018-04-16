@@ -52,6 +52,11 @@
   </views>
   <instances>
     <instance objName="floorChanger" x="1305" y="539" name="inst_F2773A4A" locked="0" code="targetRoom = Party_House_Ground_Floor;&#xA;target_x = 1510;&#xA;target_y = 603;&#xA;" scaleX="2.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_score" x="306" y="127" name="inst_C5822E71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="1079" y="512" name="inst_952EF318" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="1068" y="751" name="inst_9BA84809" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="1452" y="764" name="inst_16B4B213" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="1460" y="500" name="inst_3C8DEE7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

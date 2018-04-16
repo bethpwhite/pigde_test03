@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-12000</depth>
+  <depth>0</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,10 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Initialise Variables
-fadeAlpha = 0;
-fadeState = 1;
-fadeSpeed = 0.05;
+            <string>global.points = 0;
 </string>
           </argument>
         </arguments>
@@ -51,26 +48,8 @@ fadeSpeed = 0.05;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Draw Fade
-fadeAlpha = clamp(fadeAlpha + (fadeState * fadeSpeed), 0, 1);
-
-if (fadeAlpha == 1)
-{
-    playerScore = global.points;
-    room_goto(tempTarget);
-    fadeState = -1;
-}
-
-if (fadeAlpha == 0) &amp;&amp; (fadeState == -1)
-{
-    instance_destroy();
-    global.points = playerScore;
-}
-
-draw_set_colour(c_black);
-draw_set_alpha(fadeAlpha);
-draw_rectangle(view_xview[0], view_yview[0], view_xview[0] + view_wview[0], view_yview[0] + view_hview[0], 0);
-draw_set_alpha(1);
+            <string>draw_set_colour(c_white);
+draw_text(view_xview, view_yview, global.points);
 </string>
           </argument>
         </arguments>
