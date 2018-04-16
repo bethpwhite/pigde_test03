@@ -14,10 +14,12 @@
     <sprite>sprites\wallbeamV</sprite>
     <sprite>sprites\checkpoint</sprite>
     <sprite>sprites\spr_player1</sprite>
+    <sprite>sprites\Comma_Coin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
     <background>background\HousePartyFirst</background>
+    <background>background\Shop</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -41,10 +43,14 @@
     </objects>
     <object>objects\obj_client</object>
     <object>objects\obj_click</object>
+    <object>objects\obj_comma_coin</object>
+    <object>objects\obj_score</object>
+    <object>objects\obj_winCondition</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Party_House_Ground_Floor</room>
     <room>rooms\Party_House_First_Floor</room>
+    <room>rooms\rm_shop</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
