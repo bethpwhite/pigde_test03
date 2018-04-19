@@ -6,7 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Test</sprite>
     <sprite>sprites\Frames</sprite>
     <sprite>sprites\WallBeam</sprite>
     <sprite>sprites\doorclosed</sprite>
@@ -14,6 +13,45 @@
     <sprite>sprites\wallbeamV</sprite>
     <sprite>sprites\checkpoint</sprite>
     <sprite>sprites\spr_player1</sprite>
+    <sprite>sprites\spr_player1idleu</sprite>
+    <sprite>sprites\spr_player1idlel</sprite>
+    <sprite>sprites\spr_player1idler</sprite>
+    <sprite>sprites\spr_player1u</sprite>
+    <sprite>sprites\spr_player1d</sprite>
+    <sprite>sprites\spr_player1l</sprite>
+    <sprite>sprites\spr_player1r</sprite>
+    <sprite>sprites\spr_player1win</sprite>
+    <sprite>sprites\spr_player1lose</sprite>
+    <sprite>sprites\spr_player2</sprite>
+    <sprite>sprites\spr_player2idleu</sprite>
+    <sprite>sprites\spr_player2idlel</sprite>
+    <sprite>sprites\spr_player2idler</sprite>
+    <sprite>sprites\spr_player2u</sprite>
+    <sprite>sprites\spr_player2d</sprite>
+    <sprite>sprites\spr_player2l</sprite>
+    <sprite>sprites\spr_player2r</sprite>
+    <sprite>sprites\spr_player2win</sprite>
+    <sprite>sprites\spr_player2lose</sprite>
+    <sprite>sprites\spr_player3</sprite>
+    <sprite>sprites\spr_player3idleu</sprite>
+    <sprite>sprites\spr_player3idlel</sprite>
+    <sprite>sprites\spr_player3idler</sprite>
+    <sprite>sprites\spr_player3u</sprite>
+    <sprite>sprites\spr_player3d</sprite>
+    <sprite>sprites\spr_player3l</sprite>
+    <sprite>sprites\spr_player3r</sprite>
+    <sprite>sprites\spr_player3win</sprite>
+    <sprite>sprites\spr_player3lose</sprite>
+    <sprite>sprites\spr_player4</sprite>
+    <sprite>sprites\spr_player4idleu</sprite>
+    <sprite>sprites\spr_player4ildel</sprite>
+    <sprite>sprites\spr_player4idler</sprite>
+    <sprite>sprites\spr_player4u</sprite>
+    <sprite>sprites\spr_player4d</sprite>
+    <sprite>sprites\spr_player4l</sprite>
+    <sprite>sprites\spr_player4r</sprite>
+    <sprite>sprites\spr_player4win</sprite>
+    <sprite>sprites\spr_player4lose</sprite>
     <sprite>sprites\Comma_Coin</sprite>
   </sprites>
   <backgrounds name="background">
@@ -24,7 +62,10 @@
   <paths name="paths"/>
   <objects name="objects">
     <objects name="PlayerObjects">
-      <object>objects\obj_player</object>
+      <object>objects\obj_player1</object>
+      <object>objects\obj_player2</object>
+      <object>objects\obj_player3</object>
+      <object>objects\obj_player4</object>
     </objects>
     <objects name="WallObjects">
       <object>objects\wallDecorGround</object>
