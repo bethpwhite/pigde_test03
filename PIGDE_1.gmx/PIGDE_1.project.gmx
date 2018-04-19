@@ -53,6 +53,7 @@
     <sprite>sprites\spr_player4win</sprite>
     <sprite>sprites\spr_player4lose</sprite>
     <sprite>sprites\Comma_Coin</sprite>
+    <sprite>sprites\CounterCoin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
@@ -87,6 +88,9 @@
     <object>objects\obj_comma_coin</object>
     <object>objects\obj_score</object>
     <object>objects\obj_winCondition</object>
+    <objects name="GUIObjects">
+      <object>objects\obj_coinStats</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Party_House_Ground_Floor</room>
