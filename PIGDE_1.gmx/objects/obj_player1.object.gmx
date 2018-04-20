@@ -53,7 +53,7 @@ if(down) y += 6;
         <exetype>1</exetype>
         <functionname>action_execute_script</functionname>
         <codestring></codestring>
-        <whoName>other</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>

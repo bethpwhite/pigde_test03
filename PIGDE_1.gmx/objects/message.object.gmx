@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Creates  the text variabkle
+            <string>// Creates  the text variables
 
-text_type = "";
+text = "";
 </string>
           </argument>
         </arguments>
@@ -86,7 +86,7 @@ if (image_alpha == 0)
             <kind>1</kind>
             <string>//Now we display text
 
-draw_text (x,y,text_type);
+draw_text (x,y,text);
 </string>
           </argument>
         </arguments>
