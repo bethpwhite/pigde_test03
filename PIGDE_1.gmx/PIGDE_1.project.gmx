@@ -61,6 +61,7 @@
     <sprite>sprites\Comma_Coin</sprite>
     <sprite>sprites\CounterCoin</sprite>
     <sprite>sprites\spr_collectible</sprite>
+    <sprite>sprites\small_coin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
@@ -70,6 +71,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\textmessage.gml</script>
+    <script>scripts\collectibles.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="PlayerObjects">
@@ -103,8 +105,13 @@
       <objects name="EffectObjects">
         <objects name="MoneyEffects">
           <object>objects\obj_moneyEffect01</object>
+          <object>objects\obj_moneyEffect02</object>
+          <object>objects\obj_moneyEffect03</object>
         </objects>
         <object>objects\message</object>
+        <objects name="FluidEffects">
+          <object>objects\obj_fluidEffect01</object>
+        </objects>
       </objects>
     </objects>
   </objects>

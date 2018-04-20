@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.points &gt;= 1)
+            <string>if (global.water &gt;= 1)
 {
-global.points = global.points - 1;
+global.water = global.water - 10;
 }
 </string>
           </argument>
@@ -67,7 +67,7 @@ global.points = global.points - 1;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>"Pickpocketed!"</string>
+            <string>"Dropped your change!"</string>
           </argument>
           <argument>
             <kind>0</kind>
