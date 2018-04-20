@@ -156,6 +156,12 @@
     <instance objName="obj_comma_coin" x="2001" y="419" name="inst_0961AB3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_comma_coin" x="1985" y="1207" name="inst_E154382F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorChanger" x="1439" y="92" name="inst_E9E2904F" locked="0" code="targetRoom = rm_shop;&#xA;target_x = 1005;&#xA;target_y = 865;&#xA;" scaleX="26.6000003814697" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect01" x="955" y="684" name="inst_30F96DB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect01" x="1422" y="866" name="inst_56E33E0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect01" x="1367" y="480" name="inst_30F0F14F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect01" x="2288" y="823" name="inst_14B0A09D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect01" x="2178" y="603" name="inst_19225787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect01" x="2302" y="620" name="inst_3C6812E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
