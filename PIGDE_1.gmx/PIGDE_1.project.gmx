@@ -59,28 +59,9 @@
     <sprite>sprites\spr_player4win</sprite>
     <sprite>sprites\spr_player4lose</sprite>
     <sprite>sprites\spr_commaCoin</sprite>
-    <sprite>sprites\spr_player2lose</sprite>
-    <sprite>sprites\spr_player3</sprite>
-    <sprite>sprites\spr_player3idleu</sprite>
-    <sprite>sprites\spr_player3idlel</sprite>
-    <sprite>sprites\spr_player3idler</sprite>
-    <sprite>sprites\spr_player3u</sprite>
-    <sprite>sprites\spr_player3d</sprite>
-    <sprite>sprites\spr_player3l</sprite>
-    <sprite>sprites\spr_player3r</sprite>
-    <sprite>sprites\spr_player3win</sprite>
-    <sprite>sprites\spr_player3lose</sprite>
-    <sprite>sprites\spr_player4</sprite>
-    <sprite>sprites\spr_player4idleu</sprite>
-    <sprite>sprites\spr_player4ildel</sprite>
-    <sprite>sprites\spr_player4idler</sprite>
-    <sprite>sprites\spr_player4u</sprite>
-    <sprite>sprites\spr_player4d</sprite>
-    <sprite>sprites\spr_player4l</sprite>
-    <sprite>sprites\spr_player4r</sprite>
-    <sprite>sprites\spr_player4win</sprite>
-    <sprite>sprites\spr_player4lose</sprite>
-    <sprite>sprites\spr_commaCoin</sprite>
+    <sprite>sprites\spr_collectible</sprite>
+    <sprite>sprites\spr_smallCoin</sprite>
+    <sprite>sprites\spr_waterBottle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
@@ -90,6 +71,21 @@
   <paths name="paths"/>
   <scripts name="scripts"/>
   <objects name="objects">
+    <objects name="GUIObjects">
+      <object>objects\obj_coinStats</object>
+      <object>objects\obj_waterStats</object>
+    </objects>
+    <objects name="EffectObjects">
+      <objects name="MoneyEffects">
+        <object>objects\obj_moneyEffect01</object>
+        <object>objects\obj_moneyEffect02</object>
+        <object>objects\obj_moneyEffect03</object>
+      </objects>
+      <objects name="FluidEffects">
+        <object>objects\obj_fluidEffect01</object>
+      </objects>
+      <object>objects\message</object>
+    </objects>
     <objects name="PlayerObjects">
       <object>objects\obj_player1</object>
       <object>objects\obj_player2</object>
