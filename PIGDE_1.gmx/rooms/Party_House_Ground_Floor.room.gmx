@@ -167,7 +167,8 @@
     <instance objName="obj_comma_coin" x="2033" y="1176" name="inst_AAE8F373" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_comma_coin" x="2297" y="1226" name="inst_A1A640EC" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_comma_coin" x="1173" y="521" name="inst_D13B3745" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coinStats" x="47" y="43" name="inst_BEC19B48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coinStats" x="43" y="44" name="inst_BEC19B48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_waterStats" x="438" y="20" name="inst_DBC0C588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

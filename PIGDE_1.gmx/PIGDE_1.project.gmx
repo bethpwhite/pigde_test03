@@ -61,6 +61,7 @@
     <sprite>sprites\spr_commaCoin</sprite>
     <sprite>sprites\spr_collectible</sprite>
     <sprite>sprites\spr_smallCoin</sprite>
+    <sprite>sprites\spr_waterBottle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
@@ -75,6 +76,7 @@
   <objects name="objects">
     <objects name="GUIObjects">
       <object>objects\obj_coinStats</object>
+      <object>objects\obj_waterStats</object>
     </objects>
     <objects name="EffectObjects">
       <objects name="MoneyEffects">
