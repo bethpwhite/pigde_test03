@@ -69,7 +69,9 @@
     <background>background\Shop</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
+  <scripts name="scripts">
+    <script>scripts\textmessage.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="GUIObjects">
       <object>objects\obj_coinStats</object>

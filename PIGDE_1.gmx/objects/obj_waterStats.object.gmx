@@ -51,12 +51,12 @@ maxFluid = (global.water = 10);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Draw the hearts
+            <string>/// Draw the water
 
 xoffset = -16
 
 ///Use a for loop
-for (var i=0; i&lt;global.water; i++){
+for (var i=0; i&lt;global.water; i--){
 draw_sprite(spr_waterBottle, 0, xstart+(xoffset*i), ystart);
 }
 
