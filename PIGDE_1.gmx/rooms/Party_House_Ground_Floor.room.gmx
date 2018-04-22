@@ -42,7 +42,7 @@
   </backgrounds>
   <views>
     <view visible="-1" objName="obj_player1" xview="0" yview="0" wview="500" hview="400" xport="0" yport="0" wport="500" hport="400" hborder="250" vborder="200" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="obj_player2" xview="0" yview="0" wview="500" hview="400" xport="0" yport="0" wport="500" hport="400" hborder="250" vborder="200" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -53,6 +53,7 @@
   <instances>
     <instance objName="obj_score" x="4" y="136" name="inst_6953A475" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player1" x="813" y="656" name="inst_5DE1897E" locked="0" code="" scaleX="0.0399999991059303" scaleY="0.0399999991059303" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player2" x="2312" y="149" name="inst_D45EF800" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="obj_verticalDoor" x="1310" y="466" name="inst_38355816" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_verticalDoor" x="1869" y="1068" name="inst_F57C1CD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_verticalDoor" x="999" y="749" name="inst_A0098C5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
