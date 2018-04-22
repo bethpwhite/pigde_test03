@@ -26,9 +26,63 @@
           <argument>
             <kind>1</kind>
             <string>//Variables
-obj_player.player_x = obj_player.xstart;
-obj_player.player_y = obj_player.ystart;
+//player1
+
+obj_player1.player_x = obj_player1.xstart;
+obj_player1.player_y = obj_player1.ystart;
+
+//player2
+obj_player2.player_x = obj_player2.xstart;
+obj_player2.player_y = obj_player2.ystart
+
+//player3
+obj_player3.player_x = obj_player3.xstart;
+obj_player3.player_y = obj_player3.ystart
+
+//player4
+obj_player4.player_x = obj_player4.xstart;
+obj_player4.player_y = obj_player4.ystart
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>collectibles</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
