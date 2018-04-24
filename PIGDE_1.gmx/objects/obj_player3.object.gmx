@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>gamepad_set_axis_deadzone (0,0.7);
+            <string>spd=6;
+
 </string>
           </argument>
         </arguments>
@@ -48,19 +49,29 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//player movement
+            <string>//controller
 
-right = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_axislh) &gt; 0 ) ;
-left = -(keyboard_check(vk_left) || (gamepad_axis_value(0,gp_axislh) &lt; 0))  ;
-up = keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_axisrh) &gt; 0 ) ;
-down = -(keyboard_check(vk_down)|| (gamepad_axis_value(0,gp_axisrh) &lt; 0 )) ;
+if(gamepad_is_connected(0))
+gamepad_set_axis_deadzone (0,0.5);
+
+//player movement
+/*
+right = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_padr) &gt; 0 ) ;
+left = -(keyboard_check(vk_left) || (gamepad_axis_value(0,gp_padl) &lt; 0))  ;
+up = keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_padu) &gt; 0 ) ;
+down = -(keyboard_check(vk_down)|| (gamepad_axis_value(0,gp_padd) &lt; 0 )) ;
+alternative movement below*/
 
 
 
+/*
 if(right) x += 6;
 if(left) x -= 6;
 if(up) y -= 6;
 if(down) y += 6;
+*/
+
+state_move(0,spd);
 
 </string>
           </argument>

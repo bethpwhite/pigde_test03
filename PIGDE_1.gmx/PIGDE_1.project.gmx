@@ -59,28 +59,6 @@
     <sprite>sprites\spr_player4win</sprite>
     <sprite>sprites\spr_player4lose</sprite>
     <sprite>sprites\spr_commaCoin</sprite>
-    <sprite>sprites\spr_player2lose</sprite>
-    <sprite>sprites\spr_player3</sprite>
-    <sprite>sprites\spr_player3idleu</sprite>
-    <sprite>sprites\spr_player3idlel</sprite>
-    <sprite>sprites\spr_player3idler</sprite>
-    <sprite>sprites\spr_player3u</sprite>
-    <sprite>sprites\spr_player3d</sprite>
-    <sprite>sprites\spr_player3l</sprite>
-    <sprite>sprites\spr_player3r</sprite>
-    <sprite>sprites\spr_player3win</sprite>
-    <sprite>sprites\spr_player3lose</sprite>
-    <sprite>sprites\spr_player4</sprite>
-    <sprite>sprites\spr_player4idleu</sprite>
-    <sprite>sprites\spr_player4ildel</sprite>
-    <sprite>sprites\spr_player4idler</sprite>
-    <sprite>sprites\spr_player4u</sprite>
-    <sprite>sprites\spr_player4d</sprite>
-    <sprite>sprites\spr_player4l</sprite>
-    <sprite>sprites\spr_player4r</sprite>
-    <sprite>sprites\spr_player4win</sprite>
-    <sprite>sprites\spr_player4lose</sprite>
-    <sprite>sprites\spr_commaCoin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
@@ -88,7 +66,9 @@
     <background>background\Shop</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
+  <scripts name="scripts">
+    <script>scripts\state_move.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="PlayerObjects">
       <object>objects\obj_player1</object>
@@ -116,6 +96,7 @@
     <object>objects\obj_comma_coin</object>
     <object>objects\obj_score</object>
     <object>objects\obj_winCondition</object>
+    <object>objects\obj_music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Party_House_Ground_Floor</room>
